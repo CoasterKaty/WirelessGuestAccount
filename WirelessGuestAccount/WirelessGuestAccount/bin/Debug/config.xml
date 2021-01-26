@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Settings>
+    <Setting>DN</Setting>
+    <Value>ou=Guest Wireless,DC=contoso,DC=com</Value>
+  </Settings>
+  <Settings>
+    <Setting>Port</Setting>
+    <Value>COM7</Value>
+  </Settings>
+  <Settings>
+    <Setting>Group</Setting>
+    <Value>G GuestWireless</Value>
+  </Settings>
+  <Settings>
+    <Setting>UPNSuffix</Setting>
+    <Value>@contoso.com</Value>
+  </Settings>
+  <Settings>
+    <Setting>Server</Setting>
+    <Value>SRV01</Value>
+  </Settings>
+  <Settings>
+    <Setting>SSID</Setting>
+    <Value>School-Wireless</Value>
+  </Settings>
+  <Settings>
+  <Setting>LabelText</Setting>
+  <Value>Guests must have a wireless pass in order to access the guest wireless. Passes are valid for 1, 2, 5 or 30 days, or unlimited.
+
+"Guest Details" is not printed on the ticket. This is optional for short length passes but required for 30 day or unlimited passes.
+
+Instructions for connecting will be on the printed ticket, they will need to use the $SSID$ network and the supplied username/password.
+
+Staff and students should use the $SSID$ network with their existing school login details and should not be using guest logins.</Value>
+  </Settings>
+</NewDataSet>
