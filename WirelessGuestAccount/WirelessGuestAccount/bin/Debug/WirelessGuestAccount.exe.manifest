@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WirelessGuestAccount.exe" size="36352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WirelessGuestAccount.exe" size="35840">
       <assemblyIdentity name="WirelessGuestAccount" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>174yELVLpWcNoPkPK0MFkMGduft5Vz64I0fO84uq5TI=</dsig:DigestValue>
+        <dsig:DigestValue>SSKXIumf9qQjEttucSrngue+YB9ksV7nb3mZDpAUei4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

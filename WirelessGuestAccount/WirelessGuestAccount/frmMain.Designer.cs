@@ -54,11 +54,9 @@
             this.groupBox1.Controls.Add(this.txtDetails);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 245);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(9, 199);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(475, 229);
+            this.groupBox1.Size = new System.Drawing.Size(356, 186);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Print Passes";
@@ -66,10 +64,9 @@
             // cmdReset
             // 
             this.cmdReset.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdReset.Location = new System.Drawing.Point(257, 183);
-            this.cmdReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdReset.Location = new System.Drawing.Point(193, 149);
             this.cmdReset.Name = "cmdReset";
-            this.cmdReset.Size = new System.Drawing.Size(117, 28);
+            this.cmdReset.Size = new System.Drawing.Size(88, 23);
             this.cmdReset.TabIndex = 5;
             this.cmdReset.Text = "Clear";
             this.cmdReset.UseVisualStyleBackColor = true;
@@ -86,20 +83,18 @@
             "5 days",
             "30 days",
             "Never Expires"});
-            this.cboValidity.Location = new System.Drawing.Point(156, 118);
-            this.cboValidity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboValidity.Location = new System.Drawing.Point(117, 96);
             this.cboValidity.Name = "cboValidity";
-            this.cboValidity.Size = new System.Drawing.Size(160, 26);
+            this.cboValidity.Size = new System.Drawing.Size(121, 22);
             this.cboValidity.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 123);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(7, 100);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 18);
+            this.label3.Size = new System.Drawing.Size(86, 14);
             this.label3.TabIndex = 7;
             this.label3.Text = "Validity Period";
             // 
@@ -107,18 +102,16 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 81);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(7, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 18);
+            this.label2.Size = new System.Drawing.Size(105, 14);
             this.label2.TabIndex = 6;
             this.label2.Text = "Number of Passes";
             // 
             // numPassCount
             // 
             this.numPassCount.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numPassCount.Location = new System.Drawing.Point(156, 78);
-            this.numPassCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numPassCount.Location = new System.Drawing.Point(117, 63);
             this.numPassCount.Maximum = new decimal(new int[] {
             25,
             0,
@@ -130,7 +123,7 @@
             0,
             0});
             this.numPassCount.Name = "numPassCount";
-            this.numPassCount.Size = new System.Drawing.Size(73, 26);
+            this.numPassCount.Size = new System.Drawing.Size(55, 22);
             this.numPassCount.TabIndex = 2;
             this.numPassCount.Value = new decimal(new int[] {
             1,
@@ -141,10 +134,9 @@
             // cmdPrint
             // 
             this.cmdPrint.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdPrint.Location = new System.Drawing.Point(100, 183);
-            this.cmdPrint.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmdPrint.Location = new System.Drawing.Point(75, 149);
             this.cmdPrint.Name = "cmdPrint";
-            this.cmdPrint.Size = new System.Drawing.Size(117, 28);
+            this.cmdPrint.Size = new System.Drawing.Size(88, 23);
             this.cmdPrint.TabIndex = 4;
             this.cmdPrint.Text = "Print Passes";
             this.cmdPrint.UseVisualStyleBackColor = true;
@@ -153,45 +145,42 @@
             // txtDetails
             // 
             this.txtDetails.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDetails.Location = new System.Drawing.Point(156, 32);
-            this.txtDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDetails.Location = new System.Drawing.Point(117, 26);
             this.txtDetails.Name = "txtDetails";
-            this.txtDetails.Size = new System.Drawing.Size(304, 26);
+            this.txtDetails.Size = new System.Drawing.Size(229, 22);
             this.txtDetails.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 37);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(7, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 18);
+            this.label1.Size = new System.Drawing.Size(82, 14);
             this.label1.TabIndex = 0;
             this.label1.Text = "Guest Details";
             // 
             // lblInfo
             // 
             this.lblInfo.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfo.Location = new System.Drawing.Point(8, 11);
-            this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblInfo.Location = new System.Drawing.Point(6, 9);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(491, 230);
+            this.lblInfo.Size = new System.Drawing.Size(368, 187);
             this.lblInfo.TabIndex = 1;
             this.lblInfo.Text = resources.GetString("lblInfo.Text");
+            this.lblInfo.Click += new System.EventHandler(this.lblInfo_Click);
             // 
-            // Form1
+            // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(499, 481);
+            this.ClientSize = new System.Drawing.Size(374, 391);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Guest Wireless Pass Generator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

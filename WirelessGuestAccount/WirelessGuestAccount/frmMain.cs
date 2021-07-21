@@ -1,7 +1,7 @@
 ﻿/* frmMain
  * Main form for Wireless Guest Manager
  * Katy Nicholson
- * https://katynicholson.uk
+ * https://katystech.blog/
  */
 using System;
 using System.Collections.Generic;
@@ -185,6 +185,11 @@ namespace WirelessGuestAccount
             cboValidity.SelectedIndex = 1;
             numPassCount.Value = 1;
             txtDetails.Focus();
+
+        }
+
+        private void lblInfo_Click(object sender, EventArgs e)
+        {
 
         }
     }
